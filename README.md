@@ -1,12 +1,12 @@
 # topsis
 Topsis package to find the best option among given products depending upon their features and weightage of each feature for product selection
-This is comand line program, here the user has to give in 3 list of arguments:
+This is command-line program, where the user has to give in 3 lists of arguments:
 
- 1.InputDataFile: CSV file containg all different types of prducts adn their attribute/features
+ 1.InputDataFile: CSV file containing all different types of products and their attribute/features
   
- 2.Weigths: list of weight the weights are given in orderr of attributes in CSV file as one to one mapping; seperated by commas
+ 2.Weights: list of weight the weights are given in order of attributes in CSV file as one to one mapping; separated by commas
  
- 3.Impacts: a list of imapct of each attribute while product selection. Impact can be positive or negative represented as '+' and '-'                  respectively. The input impacts have one to one mapping and are seperated by commas.
+ 3.Impacts: a list of the impact of each attribute while product selection. The impact can be positive or negative represented as '+' and '-'    respectively. The input impacts have one to one mapping and are separated by commas.
 
 
   Example of usage:
